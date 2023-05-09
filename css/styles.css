@@ -250,7 +250,7 @@ input {
   display: none;
   gap: 40px;
 }
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .address-list {
     display: flex;
   }
@@ -274,7 +274,7 @@ input {
 .address-contact {
   color: var(--color-slate);
 }
-@media only screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .address-list {
     display: block;
   }
@@ -512,7 +512,7 @@ input {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .feature-title {
     text-align: center;
   }
@@ -719,7 +719,7 @@ input {
   padding-bottom: 96px;
 }
 
-@media only screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .customers {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -871,7 +871,7 @@ input {
   |============================
 */
 
-@media only screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .social-container {
     margin-right: 80px;
   }
@@ -917,7 +917,7 @@ input {
 
   margin-bottom: 16px;
 }
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .social-text {
     text-align: start;
   }
@@ -1419,12 +1419,12 @@ input::placeholder {
 .section-portfolio {
   padding: 48px 0 48px;
 }
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .section-portfolio  {
     padding: 64px 0 96px;
   }
 }
-@media only screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .section-portfolio  {
     padding: 100px 0 120px;
   }
