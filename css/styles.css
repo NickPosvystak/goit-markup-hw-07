@@ -100,7 +100,7 @@ input {
   |============================
 */
 .header {
-  padding-top: 24px;
+  padding-top: 0;
   padding-bottom: 22px;
   background: var(--color-white);
   border-bottom: 1px solid var(--color-cornflower);
@@ -126,8 +126,6 @@ input {
 */
 
 .link-logo {
-  display: flex;
-  align-items: center;
   text-transform: uppercase;
   margin-right: auto;
 
@@ -150,8 +148,6 @@ input {
 }
 
 .logo-text {
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -263,7 +259,11 @@ input {
 
   color: var(--color-slate);
 }
-
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .address-item:nth-child(1) {
+    margin-bottom: 12px;
+  }
+}
 .address-item .address-contact {
   transition-property: color;
   transition-duration: 250ms;
